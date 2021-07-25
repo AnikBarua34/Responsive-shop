@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Shop</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon"
+        href="images/navbar/ap-initial-letter-company-logo-icon-ap-initial-letter-company-logo-148664775.jpg"
+        type="image/x-icon">
+</head>
+
+<body>
+
+    <!---------------HEADER START----------------->
+
+    <header>
+
+        <!---------------NAVBAR START----------------->
+        <section class="container">
+            <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-info">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="images/navbar/ap-initial-letter-company-logo-icon-ap-initial-letter-company-logo-148664775.jpg"
+                            alt="" width="100" height="40">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse ms-5 ps-5" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active fw-bold " aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active fw-bold ps-4" href="aboutus.html" target="_blank">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active fw-bold ps-4" aria-current="page" href="#cow">Cows</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active fw-bold ps-4" href="#sheep">Sheeps</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active fw-bold ps-4" href="#chamel">Chamels</a>
+                            </li>
+                    </div>
+                </div>
+            </nav>
+        </section>
+        <!---------------NAVBAR END----------------->
+
+
+        <!---------------SLIDER START----------------->
+
+        <section class="container my-0">
+
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active rounded-3 pt-5 mt-5">
+                        <img src="images/slider/slider1.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item rounded-3 pt-5 mt-5">
+                        <img src="images/slider/slider2.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item rounded-3 pt-5 mt-5">
+                        <img src="images/slider/slider3.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+
+        <!---------------SLIDER END----------------->
+
+
+        <!---------------COLUMN START----------------->
+
+        <section class="container my-5">
+
+            <div class="row">
+                <div class="col col-lg-4 col-12">
+                    <div
+                        class="d-flex justify-content-between align-items-center bg-light border border-4 border-danger shadow-lg rounded-3 p-2 ps-5 pe-5">
+                        <h2>Cow</h2>
+
+                        <img src="images/3 colum/cow.jpg" width="100" alt="">
+                    </div>
+                </div>
+                <div class="col col-lg-4 col-12">
+                    <div
+                        class="d-flex justify-content-between align-items-center bg-light border border-4 border-primary shadow-lg rounded-3 p-2 ps-5 pe-5">
+                        <h2>Sheep</h2>
+
+                        <img src="images/3 colum/sheep.jpg" width="100" alt="">
+                    </div>
+                </div>
+                <div class="col col-lg-4 col-12">
+                    <div
+                        class="d-flex justify-content-between align-items-center bg-light border border-4 border-success shadow-lg rounded-3 p-2 ps-5 pe-5">
+                        <h2>Chamel</h2>
+
+                        <img src="images/3 colum/chamel.png" width="100" alt="">
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!---------------COLUMN END----------------->
+    </header>
+    <!---------------HEADER END----------------->
+
+    <main>
+        <section class="container my-5" id="cow">
+            <h2>Our Cows</h2>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card h-100 shadow-lg border border-3 border-danger">
+                        <img src="images/card-cow/6144.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Lalu Vai</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p> <br>
+                        </div>
+                        <div class="footer m-1">
+                            <h3 class="ps-3">$300</h3>
+                            <button class="btn btn-success rounded-5 ms-3 fw-bold">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 shadow-lg border border-3 border-danger">
+                        <img src="images/card-cow/card1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Sada-kala Vai</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p> <br>
+                        </div>
+                        <div class="footer m-1">
+                            <h3 class="ps-3">$400</h3>
+                            <button class="btn btn-success rounded-5 ms-3 fw-bold">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 shadow-lg border border-3 border-danger">
+                        <img src="images/card-cow/card2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Kalu Vai</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p> <br>
+                        </div>
+                        <div class="footer m-1">
+                            <h3 class="ps-3">$500</h3>
+                            <button class="btn btn-success rounded-5 ms-3 fw-bold">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section class="container my-5" id="sheep">
+            <h2>Our Sheeps</h2>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card h-100 shadow-lg border border-3 border-primary">
+                        <img src="images/card-sheep/1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Cutie Pie</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p> <br>
+                        </div>
+                        <div class="footer m-1">
+                            <h3 class="ps-3">$100</h3>
+                            <button class="btn btn-success rounded-5 ms-3 fw-bold">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 shadow-lg border border-3 border-primary">
+                        <img src="images/card-sheep/2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Vodro Pie</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p> <br>
+                        </div>
+                        <div class="footer m-1">
+                            <h3 class="ps-3">$200</h3>
+                            <button class="btn btn-success rounded-5 ms-3 fw-bold">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 shadow-lg border border-3 border-primary">
+                        <img src="images/card-sheep/3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Beshi Angry Pie</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p> <br>
+                        </div>
+                        <div class="footer m-1">
+                            <h3 class="ps-3">$200</h3>
+                            <button class="btn btn-success rounded-5 ms-3 fw-bold">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section class="container my-5" id="chamel">
+            <h2>Our Chamels</h2>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card h-100 shadow-lg border border-3 border-success">
+                        <img src="images/card-chamel/1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Santo Sisto </h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p> <br>
+                        </div>
+                        <div class="footer m-1">
+                            <h3 class="ps-3">$300</h3>
+                            <button class="btn btn-success rounded-5 ms-3 fw-bold">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 shadow-lg border border-3 border-success">
+                        <img src="images/card-chamel/2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Bitla Soitan </h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p> <br>
+                        </div>
+                        <div class="footer m-1">
+                            <h3 class="ps-3">$300</h3>
+                            <button class="btn btn-success rounded-5 ms-3 fw-bold">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 shadow-lg border border-3 border-success">
+                        <img src="images/card-chamel/3.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Dj Chamel</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p> <br>
+                        </div>
+                        <div class="footer m-1">
+                            <h3 class="ps-3">$300</h3>
+                            <button class="btn btn-success rounded-5 ms-3 fw-bold">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- SUBSCRIBE SECTION START  -->
+
+        <section class="container text-center">
+            <div class="bg-info  p-3 rounded-3 shadow-lg">
+                <h2> Subscribe Now For New Price & Products Updates </h2>
+                <h6>Dont' miss the free chance to notify you</h6>
+                <input type="text" placeholder="Enter Your Valid Email"> <br>
+                <button class="btn btn-success m-2"> Submit</button>
+            </div>
+
+        </section>
+    </main>
+    <!----------------------- MAIN SECTION END  -->
+
+    <footer>
+        <div class="text-center fw-bold">
+            <small> All rights reserved to Anik-Barua-Turjoy</small>
+        </div>
+    </footer>
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
